@@ -1,0 +1,24 @@
+{
+  "version": "0.12.0",
+  "services": {
+    "s3": {
+      "port": 4566,
+      "host": "localhost",
+      "path": "/localstack/s3",
+      "region": "us-east-1"
+    },
+    "logs": {
+      "port": 4566,
+      "host": "localhost",
+      "path": "/localstack/logs",
+      "region": "us-east-1"
+    }
+  },
+  "log_level": "DEBUG",
+  "log_file": "/var/log/localstack.log",
+  "log_rotation": {
+    "max_size": "10M",
+    "max_backups": 5,
+    "max_age": 30
+  }
+}

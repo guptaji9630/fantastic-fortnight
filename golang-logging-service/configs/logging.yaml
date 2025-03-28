@@ -1,0 +1,10 @@
+log_level: "DEBUG"
+log_format: "json"
+log_output: 
+  - type: "file"
+    filename: "logs/app.log"
+    max_size: 10 # megabytes
+    max_backups: 5
+    max_age: 30 # days
+    compress: true
+  - type: "stdout"
