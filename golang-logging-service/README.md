@@ -64,7 +64,7 @@ golang-logging-service
 ### Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/guptaji9630/fantastic-fortnight/edit/main/golang-logging-service
    cd golang-logging-service
    ```
 
